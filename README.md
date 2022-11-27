@@ -48,7 +48,7 @@ Firebase: Utilizado para alojar los datos de los productos y los datos de las or
 
 ```
 
-Listo, con estos simples pasos la aplicacion se abrira automaticamente en nuestro navegador en localhost:3000
+Listo, con estos simples pasos la aplicacion se abrira automaticamente en nuestro navegador en [http://localhost:3000](http://localhost:3000)
 
 
 
