@@ -29,7 +29,6 @@ function ItemListContainer({ greeting }) {
           setItems(productos)
         })
         .catch((err) => {
-          //console.log(err)
           errorNotify(err)
         })
 
@@ -43,7 +42,6 @@ function ItemListContainer({ greeting }) {
           setItems(productos)
         })
         .catch((err) => {
-          //console.log(err)
           errorNotify(err)
         })
 
