@@ -10,7 +10,7 @@ function ItemCount({ handleOnAdd, stock, showAddBtn }) {
         if (count < stock) {
             setCount(count + 1);
         } else {
-            noStockNotify()
+           noStockNotify();
         }
     }
 

@@ -9,8 +9,19 @@ Actualmente esta aplicacion se encuentra hosteada en Vercel y se puede acceder a
 
 
 ### Tecnologias utilizadas
+<div style="display: flex">
 
-Firebase: Utilizado para alojar los datos de los productos y los datos de las ordenes de comrpa realizadas.
+<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html5 icon" width="50">
+
+<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="css icon" width="50"/>
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="css icon" width="50"/>
+<img src="https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png" alt="css icon" width="50"/>
+<img src="https://reactrouter.com/twitterimage.jpg" alt="css icon" width="50"/>
+<img src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png" alt="css icon" width="50"/>
+<img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/288_Sass-512.png" alt="css icon" width="50"/>
+</div>
+
+* Firebase: Utilizado para alojar los datos de los productos y los datos de las ordenes de comrpa realizadas.
 
 
 
@@ -50,9 +61,14 @@ Firebase: Utilizado para alojar los datos de los productos y los datos de las or
 
 Listo, con estos simples pasos la aplicacion se abrira automaticamente en nuestro navegador en [http://localhost:3000](http://localhost:3000)
 
+## Demo 
+Clic en la imagen para ir a la demo online
+
+[<img src="./ecommerce.gif"/>](https://e-comerce-xi.vercel.app/)
 
 
-video ![link](./ecommerce.mp4)
+
+
 
 
 

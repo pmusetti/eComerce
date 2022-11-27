@@ -5,7 +5,6 @@ function Resume() {
 
     const context = useContext(contexto)
     const carrito = context.products
-    console.log(carrito)
     let totalAPagar = 0
 
 

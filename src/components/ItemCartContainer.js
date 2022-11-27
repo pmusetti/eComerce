@@ -7,7 +7,6 @@ function ItemCartContainer() {
   const products = context.products
   const handleCheckout = context.handleCheckout
 
-
   return (
     <>
       <ItemCartList products={products} handleCheckout={handleCheckout} />

@@ -1,13 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 function Item({ item }) {
     const regularPrice = item.price;
     const discountPrice = regularPrice * 0.8;
     const urlDetail = "../item/" + item.id
-
-
 
     return (
         <div className='cardContainer'>

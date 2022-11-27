@@ -3,6 +3,9 @@ import { NavLink } from 'react-router-dom';
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore'
 import { db } from '../firebase'
 import { contexto } from './CustomProvider';
+import { errorNotify } from "../utils/notifications"
+
+
 function Form() {
 
     const context = useContext(contexto)
@@ -39,12 +42,11 @@ function Form() {
 
         saveOrder
             .then((res) => {
-                console.log("respuesta: ", res.id)
                 orden.id = res.id
                 setOrder(orden)
             })
             .catch((err) => {
-                console.log(err)
+                errorNotify(err)
             })
 
 

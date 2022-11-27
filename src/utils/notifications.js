@@ -11,7 +11,14 @@ export  const noStockNotify = () => toast.error('No hay stock disonible!', {
     theme: "colored",
 });
 
+export const errorNotify = (msg) => toast.error(msg, {
+    position: "top-right",
+    autoClose: 2000,
+    theme: "colored"
+});
+
 export default {
-    itemAddedNotify,
-    noStockNotify
+itemAddedNotify,
+noStockNotify,
+errorNotify,
 }

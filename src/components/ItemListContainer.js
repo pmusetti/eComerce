@@ -1,10 +1,9 @@
-import React from 'react'
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { db } from "../firebase"
-import { collection, where, query, getDocs, getDoc, doc, addDoc } from "firebase/firestore"
+import { collection, where, query, getDocs } from "firebase/firestore"
 import ItemList from './ItemList'
-import { getProductByCategory, getProducts } from "../utils/utils"
+import { errorNotify } from "../utils/notifications"
 
 //const res = collection(db, "productos");
 
@@ -30,7 +29,8 @@ function ItemListContainer({ greeting }) {
           setItems(productos)
         })
         .catch((err) => {
-          console.log(err)
+          //console.log(err)
+          errorNotify(err)
         })
 
     } else {
@@ -43,7 +43,8 @@ function ItemListContainer({ greeting }) {
           setItems(productos)
         })
         .catch((err) => {
-          console.log(err)
+          //console.log(err)
+          errorNotify(err)
         })
 
     }

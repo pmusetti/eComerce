@@ -13,7 +13,6 @@ function ItemCart({product}) {
     }
 
     const handleDelete = () => {
-            console.log("item to delete: ", product)
             context.deleteItem(product)
     }
     

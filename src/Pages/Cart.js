@@ -11,7 +11,7 @@ function Cart() {
   return (
     <div className='checkout--conatiner'>
       <h2>Estamos preparando tu pedido!</h2>
-      <h4> Podes rastrear tu pedido con el siguiente codigo: <span>{order.id}</span></h4>
+      <h4> Podes rastrearlo con el siguiente codigo: <span>{order.id}</span></h4>
     </div>
   )
 }

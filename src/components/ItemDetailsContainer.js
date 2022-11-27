@@ -1,9 +1,9 @@
-import React from 'react'
-import { useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import ItemDetails from './ItemDetails'
 import { db } from "../firebase"
-import { collection, getDoc, doc} from "firebase/firestore"
+import { collection, getDoc, doc } from "firebase/firestore"
+import { errorNotify } from "../utils/notifications"
 
 function ItemDetailsContainer() {
 
@@ -18,20 +18,20 @@ function ItemDetailsContainer() {
         const consulta = getDoc(referencia)
 
         consulta
-            .then( res => {
+            .then(res => {
                 const item = res.data()
                 item.id = res.id
                 setItems(item)
             })
             .catch(err => {
-                console.log(err)
+                errorNotify(err)
             })
 
     }, [elementId])
 
     return (
         <>
-            {item.length == 0 ? <p>Cargando...</p> : <ItemDetails key={item.id} item={item} /> }
+            {item.length == 0 ? <p>Cargando...</p> : <ItemDetails key={item.id} item={item} />}
         </>
 
     )
