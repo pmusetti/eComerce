@@ -7,7 +7,6 @@ function Resume() {
     const carrito = context.products
     let totalAPagar = 0
 
-
     carrito.forEach(element => {
         totalAPagar += element.price * 0.8 * element.qty
     });

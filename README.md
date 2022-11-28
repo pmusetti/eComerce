@@ -64,7 +64,7 @@ Listo, con estos simples pasos la aplicacion se abrira automaticamente en nuestr
 ## Demo 
 Clic en la imagen para ir a la demo online
 
-[<img src="./ecommerce.gif"/>](https://e-comerce-xi.vercel.app/)
+[<img src="./ecommerce.gif"/>](https://e-comerce-git-master-pmusetti.vercel.app/)
 
 
 
